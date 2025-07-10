@@ -35,9 +35,10 @@ trrrash --version               # Show version and author info
 ---
 ## Installation
 
-`git clone https://github.com/husseinMohamed7/trrrash.git`
-`cd trrrash`
-`./install.sh`
+- `git clone https://github.com/husseinMohamed7/trrrash.git`
+- `cd trrrash`
+- `chmod u+x install.sh`
+- `./install.sh`
 
 ---
 
