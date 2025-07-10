@@ -43,8 +43,8 @@ trrrash --version               # Show version and author info
 
 ### Trash location
 
-~/.trrrash/
-Each file is renamed with a timestamp suffix and gets a corresponding .meta file storing:
+`~/.trrrash/`
+- Each file is renamed with a timestamp suffix and gets a corresponding .meta file storing:
   - Original name and full path
   - Trashed name
   - Deletion timestamp
