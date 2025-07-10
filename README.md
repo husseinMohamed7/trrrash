@@ -52,6 +52,7 @@ trrrash --version               # Show version and author info
 ---
 
 ### Author
+Your feedback is always welcome!
 
 
 <p align="center">
@@ -60,5 +61,5 @@ trrrash --version               # Show version and author info
   </a>
 </p>
 
-<h3 align="center">Created by <a href="https://github.com/husseinMohamed7">Hussein Mohamed</a></h3>
+<h3 align="center"><a href="https://github.com/husseinMohamed7">Hussein Mohamed</a></h3>
 
