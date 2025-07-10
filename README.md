@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/trrrash.jpg" width="500" alt="Trash Illustration">
+  <img src="assets/icon.jpg" width="500" alt="Trash Illustration">
 </p>
 
 <h1 align="center">Trrrash</h1>
@@ -13,24 +13,52 @@
 ## Features
 
 - Safe delete using `trrrash` instead of `rm`
-- Restore files by name using `rrrestore`
-- Empty trash using `emmmpty`
-- Automatically creates `~/.trash` if it doesn't exist
-- Beginner-friendly and portable
+- Restore files by original name using `trrrash -b <filename>`
+- Empty the trash using `trrrash -e`
+- Confirmation prompts with `-i` or force delete with `-f`
+- Metadata stored for each deleted file
+- One single script for all operations
 
 ---
 
 ## Usage
 
-### Move file to trash
 ```bash
-trrrash filename
+trrrash file1.txt file2.sh      # Safely delete files
+trrrash -f file.txt             # Force delete (no confirmation)
+trrrash -i file.txt             # Interactive delete (ask before)
+trrrash -b file.txt             # Restore by original name
+trrrash -e                      # Empty the trash folder
+trrrash --help                  # Show help message
+trrrash --version               # Show version and author info
 ```
-### Restore file from trash
-```bash
-rrrestore filename
-```
-### Empty trash bin
-```bash
-emmmpty
-```
+---
+## Installation
+
+`git clone https://github.com/husseinMohamed7/trrrash.git`
+`cd trrrash`
+`./install.sh`
+
+---
+
+### Trash location
+
+~/.trrrash/
+Each file is renamed with a timestamp suffix and gets a corresponding .meta file storing:
+  - Original name and full path
+  - Trashed name
+  - Deletion timestamp
+    
+---
+
+### Author
+
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/hussein-mohamed7/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" height="30" />
+  </a>
+</p>
+
+<h3 align="center">Created by <a href="https://github.com/husseinMohamed7">Hussein Mohamed</a></h3>
+
