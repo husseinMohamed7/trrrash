@@ -17,7 +17,6 @@
 - Empty the trash using `trrrash -e`
 - Confirmation prompts with `-i` or force delete with `-f`
 - Metadata stored for each deleted file
-- One single script for all operations
 
 ---
 
